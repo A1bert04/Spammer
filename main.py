@@ -6,6 +6,7 @@ repe = 500
 delay = 0.0
 i = 1
 
+print("")
 print("----------------------------------")
 print("")
 print("       A1bert04 (c) 2020          ")
@@ -22,7 +23,7 @@ def Askrepe():
     repe = input("Cuantas veces quieres enviar el mensaje: ")
     print("")
 
-    if repe is "0":
+    if repe == "0":
         print("0 no es un número válido")
         print("")
         Askrepe()
